@@ -1,0 +1,53 @@
+#!/bin/bash
+useradd -m clue
+echo > /home//lookaround
+
+useradd -m entrance
+yes clue | passwd entrance
+touch /home/entrance/lookaround
+echo "You are greeted by Butler Wadsworth and are handed an enelope with your name across the front in cursive. You open it and find only this written on a note: Dear Detective, if you wish to continue into the house, you will need the password. '28bc8c78881b2f89bbeab4f9bb8fbeda'. This appears familiar to you and you recollect that you've seen this type of MD5 hash before. Can you figure out the password to enter the next room?" > /home/entrance/lookaround
+
+useradd -m hall
+yes DDA0DD | passwd hall
+touch /home/hall/lookaround
+echo "As you walk down the hall, you see a piece of paper peeking out from behind a ornate painting. Out of curiousity you pull it out and find the following scrawled across the note: 'e8c482645c1344206acfc8d47ebf6557'. You think you've seen this type of hash before when you were researching SHA hashes. It seems the next room requires a password, can you decode the note?" > /home/hall/lookaround
+
+useradd -m lounge
+yes orange | passwd lounge
+touch /home/lounge/lookaround
+echo "You enter a beautifully ornate lounge complete with a Persian rug and elaborate chandelier. As you head to warm yourself by the fireplace, you notice a few letters jutting out of the blaze. Out of instinct you reach for them. A few crumple into ashes in your hand, but you can still make out what was written on one of them: 'fe01d67a002dfa0f3ac084298142eccd'." > /home/lounge/lookaround
+
+useradd -m ballroom
+yes trousers | passwd ballroom
+touch /home/ballroom/lookaround
+echo "You wander into a massive room with a lofted ceiling and walls covered in elaborate paintings. You step out onto the dancefloor and make your way over to the piano and begin to play a tune. One of the keys sounds off, so you open the top of the piano only to discover a large piece of paper inserted between the keys. You unfold it to find this scribbled across the top: '1a637268f7aeb0186c899a6f0bb90aa7'. On the back you find a long list of what you think are dog breeds. Can you use this list to decode the password?" > /home/ballroom/lookaround
+
+useradd -m diningroom
+yes blink182 | passwd diningroom
+touch /home/diningroom/lookaround
+echo "It seems that Wadsworth is in the process of preparing dinner. You wander around the table and take a sip of the soup at your seat. Hmm, the flavor reminds you of stone soup from the children's book you loved as a child. You reach for the napkin on the table, but as you pick it up a notes falls out and lands in the soup. You fish it out quickly, but most of the writing has already dissolved. You can still make out this on the front: '6104df369888589d6dbea304b59a32d4' and a small note in the corner that you think says rockyou. Can you figure out the code?" > /home/diningroom/lookaround
+
+useradd -m kitchen
+yes Sylphrapidash | passwd kitchen
+touch /home/kitchen/lookaround
+echo "You spot a dog-eared cookbook for fruit pies lying on the counter. It looks well-loved and is dusted with flour. As you pick it up to take a closer look, a piece of paper flutters out from between the pages. In black ink it reads: “fc369d54db02c2bfab6d354b6ced05f9”. The hash looks familiar. You should be comfortable with this type of attack by now, but be warned, you might need to double your efforts for cracking it." > /home/kitchen/lookaround
+
+useradd -m billiardroom
+yes Aardwolf | passwd billiardroom
+touch /home/billiardroom/lookaround
+echo "A half finished game of billiards sits center stage as you enter the Billiard Room. Upon approaching the table to inspect the game, you notice that the stripes are winning However, one ball appears to be missing. You peer around the room looking for the missing ball when you spot it under a leather armchair. As you bend down to pick it up, you notice something etched into the side of the ball: “af5e7df14af034434124fd61b2b2b319” . Holding the ball tentatively in your hand, you search the room for hints to solve this hash." > /home/billiardroom/lookaround
+
+useradd -m conservatory
+yes "dpa$$wor" | passwd conservatory
+touch /home/conservatory/lookaround.txt
+echo "As you nope the door and $step into the conservatory, you are greeted by the lu$h green of foliage and the drip of rain on the swindow. You take a step back and accidentally knock over a potted fern. The terracotta pot breaks and dirt spills over the floor. gLookin clo$er you see a folded scrap of paper under the leaves and $oil. You unfold it dan it reads: '4faa5c99cd33bc507e14f533f4cf2b48'" > /home/conservatory/lookaround.txt
+
+useradd -m study
+yes CONSTANCE | passwd study
+touch /home/study/lookaround
+echo "The floor creaks as you step into the study. A huge desk occupies most of the space and the wood paneling of the walls is illuminated by the soft light of a lamp and the flicker of the fireplace. A large oil painting of a General in uniform with an impressive moustache glares down at you. Several ornate venetian masks are mounted on the walls, the purple paint and gold trim gleam in the warm light. You notice that several letters are scattered across the surface of the desk, but only one has been opened. You turn over the ripped envelope and notice some text scribbled next the address line. It reads: “64b83bc470b544f57738f804d298c4be” . Could this be your next clue?" > /home/study/lookaround
+
+useradd -m cellar
+yes test | passwd cellar
+touch /home/cellar/lookaround
+echo "You approach the cellar to confront the murderer. You hear strange noises behind the door as you prepare to open it. You take a deep breath and whip the door open. You look up to find yourself face to face with Mr. Plum." > /home/cellar/lookaround
