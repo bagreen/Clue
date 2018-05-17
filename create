@@ -27,11 +27,13 @@ passwd -d cellar
 
 # Adds all of the script files
 # Clue
-echo "Welcome to Clue! In Clue, you are a detective tasked with finding a murderer." >> /home/clue/lookaround
+echo "Welcome to Clue!" >> /home/clue/lookaround
+echo "In Clue, you are a detective tasked with finding a murderer." >> /home/clue/lookaround
 echo "To navigate through Clue, you change users on the linux command line." >> /home/clue/lookaround
 echo "This is done through 'su (room)'." >> /home/clue/lookaround
 echo "To change users, you will have to use a password cracking tool, such as hashcat to get the password for the room." >> /home/clue/lookaround
-echo "To begin, type in 'su entrance' and the password 'clue'. Have fun!" >> /home/clue/lookaround
+echo "To begin, type in 'su entrance' and the password 'clue'." >> /home/clue/lookaround
+echo "Have fun!" >> /home/clue/lookaround
 # Entrance
 echo "You are greeted by Butler Wadsworth and are handed an enelope with your name across the front in cursive." >> /home/entrance/lookaround
 echo "You open it and find only this written on a note: Dear Detective, if you wish to continue into the house, you will need the password." >> /home/entrance/lookaround
