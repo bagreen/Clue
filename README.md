@@ -3,7 +3,7 @@ Run ./create to create the sixteen users and change permissions so only each use
 
 Run ./del to delete all of the users and refresh back to normal
 
-# If it's not running, do the following:
+## If it's not running, do the following:
 
 If you want to create it
 > chmod 777 create
