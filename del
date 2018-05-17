@@ -1,0 +1,23 @@
+#!/bin/bash
+userdel clue
+userdel entrance
+userdel hall
+userdel lounge
+userdel ballroom
+userdel diningroom
+userdel kitchen
+userdel billiardroom
+userdel conservatory
+userdel study
+userdel cellar
+rm -rf clue
+rm -rf entrance/
+rm -rf hall/
+rm -rf lounge/
+rm -rf ballroom/
+rm -rf diningroom/
+rm -rf kitchen/
+rm -rf billiardroom/
+rm -rf conservatory/
+rm -rf study/
+rm -rf cellar/
