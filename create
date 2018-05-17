@@ -48,7 +48,6 @@ echo "fc369d54db02c2bfab6d354b6ced05f9" > /home/kitchen/hashedpassword
 echo "af5e7df14af034434124fd61b2b2b319" > /home/billiardroom/hashedpassword
 echo "4faa5c99cd33bc507e14f533f4cf2b48" > /home/conservatory/hashedpassword
 echo "64b83bc470b544f57738f804d298c4be" > /home/study/hashedpassword
-echo "test" > /home/cellar/hashedpassword
 
 # Changes permissions to make sure users can only access their own file
 chmod 770 clue
