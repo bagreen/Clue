@@ -62,3 +62,15 @@ chmod 770 billiardroom
 chmod 770 conservatory
 chmod 770 study
 chmod 770 cellar
+
+# Sets user to automatically cd on login to go to home directory
+echo "cd" >> /home/clue/.bashrc
+echo "cd" >> /home/entrance/.bashrc
+echo "cd" >> /home/lounge/.bashrc
+echo "cd" >> /home/ballroom/.bashrc
+echo "cd" >> /home/diningroom/.bashrc
+echo "cd" >> /home/kitchen/.bashrc
+echo "cd" >> /home/billiardroom/.bashrc
+echo "cd" >> /home/conservatory/.bashrc
+echo "cd" >> /home/study/.bashrc
+echo "cd" >> /home/cellar/.bashrc
