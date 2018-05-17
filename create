@@ -21,7 +21,7 @@ yes trousers | passwd ballroom
 yes blink182 | passwd diningroom
 yes Sylphrapidash | passwd kitchen
 yes Aardwolf | passwd billiardroom
-yes "dpa$$wor" | passwd conservatory
+yes 'dpa$$wor' | passwd conservatory
 yes CONSTANCE | passwd study
 passwd -d cellar
 
