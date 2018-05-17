@@ -3,8 +3,10 @@ If you want to edit the script, open the create file and click the pencil to edi
 
 All of the script comments need
 > echo "
+
 In the front and 
 > " >> /home/(room)/lookaround
+
 at the back. 
 
 Feel free to edit away and make it better, all of the issues or things we need to work on feel free to add to the issues
