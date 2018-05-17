@@ -23,7 +23,7 @@ yes Sylphrapidash | passwd kitchen
 yes Aardwolf | passwd billiardroom
 yes "dpa$$wor" | passwd conservatory
 yes CONSTANCE | passwd study
-yes test | passwd cellar
+passwd -d cellar
 
 # Adds all of the script files
 printf "Welcome to Clue!\nIn Clue, you are a detective tasked with finding a murderer\nTo navigate through Clue, you change users on the linux command line\nThis is done through 'su (room)'\nTo change users, you will have to use a password cracking tool, such as hashcat or John the Ripper to get the password for the room\nTo begin, type in 'su entrance' and the password 'clue'\nHave fun!\n" > /home/clue/lookaround
