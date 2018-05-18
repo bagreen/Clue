@@ -146,11 +146,11 @@ echo "The next room is the hall" >> /home/entrance/lookaround
 echo "The next room is the lounge" >> /home/hall/lookaround
 echo "The next room is the ballrooom" >> /home/lounge/lookaround
 echo "The next room is the diningroom" >> /home/ballroom/lookaround
-echo "The next room is the kitchen" >> /home/kitchen/lookaround
-echo "The next room is the billiardroom" >> /home/billiardroom/lookaround
-echo "The next room is the conservatory" >> /home/conservatory/lookaround
-echo "The next room is the study" >> /home/study/lookaround
-echo "The next room is the cellar" >> /home/cellar/lookaround
+echo "The next room is the kitchen" >> /home/diningroom/lookaround
+echo "The next room is the billiardroom" >> /home/kitchen/lookaround
+echo "The next room is the conservatory" >> /home/billiardroom/lookaround
+echo "The next room is the study" >> /home/conservatory/lookaround
+echo "The next room is the cellar" >> /home/study/lookaround
 
 # Adds all of the hashed passwords
 echo "28bc8c78881b2f89bbeab4f9bb8fbeda" > /home/entrance/hashedpassword
