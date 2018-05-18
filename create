@@ -17,19 +17,20 @@ useradd -m cellar
 
 # Makes passwords for each user
 passwd -d clue
-yes clue | passwd entrance
-yes DDA0DD | passwd hall
-yes orange | passwd lounge
-yes poodle | passwd ballroom
-yes blink182 | passwd diningroom
-yes Sylphrapidash | passwd kitchen
-yes birmingham | passwd billiardroom
-yes 'dpa$$wor' | passwd conservatory
-yes CONSTANCE | passwd study
-yes nancydrew123 | passwd patio
-yes CLUE-1949 | passwd library
-yes SUSPECTS-LEFT01 | passwd spa
-yes caseclosed | passwd cellar
+passwd -d entrance
+yes clue | passwd hall
+yes DDA0DD | passwd lounge
+yes orange | passwd ballroom
+yes poodle | passwd diningroom
+yes blink182 | passwd kitchen
+yes Sylphrapidash | passwd billiardroom
+yes birmingham | passwd conservatory
+yes 'dpa$$wor' | passwd study
+yes CONSTANCE | passwd patio
+yes nancydrew123 | passwd library
+yes CLUE-1949 | passwd spa
+yes SUSPECTS-LEFT01 | passwd cellar
+# yes caseclosed | office
 
 # Makes all of the scripts for each room
 # Clue
@@ -38,7 +39,7 @@ echo "In Clue, you are a detective tasked with finding a murderer." >> /home/clu
 echo "To navigate through Clue, you change users on the linux command line." >> /home/clue/lookaround
 echo "This is done through 'su (room)'." >> /home/clue/lookaround
 echo "To change users, you will have to use a password cracking tool, such as hashcat to get the password for the room." >> /home/clue/lookaround
-echo "To begin, type in 'su entrance' and the password 'clue'." >> /home/clue/lookaround
+echo "To begin, type in 'su entrance'" >> /home/clue/lookaround
 echo "Have fun!" >> /home/clue/lookaround
 
 # Entrance
@@ -57,7 +58,7 @@ echo "You turn towards the lounge, heading to see the body, Mr. Boddy’s body t
 echo "Out of curiosity you bend down and pick it up and find the following scrawled across the note: 'e8c482645c1344206acfc8d47ebf6557'." >> /home/hall/lookaround
 echo "You think you’ve seen this type of hash before when you were researching SHA hashes." >> /home/hall/lookaround
 echo "It seems the lounge requires a password to enter, can you decode the note?" >> /home/hall/lookaround
-echo "Helpful commands: su, man, hashcat -a 0 -m 100" >>/home/lounge/lookaround
+echo "Helpful commands: su, man, hashcat -a 0 -m 100" >>/home/hall/lookaround
 
 # Lounge
 echo "You enter a beautifully ornate lounge complete with a Persian rug, which was partly obstructed from view by a sprawled out dead body." >> /home/lounge/lookaround
@@ -67,7 +68,7 @@ echo "Out of instinct you reach for them." >> /home/lounge/lookaround
 echo "A few crumple into ashes in your hand, but you can still make out what was written on one of them: 'fe01d67a002dfa0f3ac084298142eccd'." >> /home/lounge/lookaround
 echo "You decide to forgo inspecting Mr. Boddy’s body, but rather head to the ballroom." >> /home/lounge/lookaround
 echo "But this door looks like it also needs a password...Maybe the letters from the flames can help?" >> /home/lounge/lookaround
-echo "Helpful commands: su, man, hashcat -a 0" >>/home/lounge/lookaround
+echo "Helpful commands: su, man, hashcat -a 0" >> /home/lounge/lookaround
 
 # Ballroom         
 echo "You wander into a massive room with a lofted ceiling, and walls covered in elaborate paintings." >> /home/ballroom/lookaround
@@ -266,6 +267,7 @@ chmod 770 cellar
 # Sets user to automatically go to home directory when they login
 echo "cd" >> /home/clue/.bashrc
 echo "cd" >> /home/entrance/.bashrc
+echo "cd" >> /home/hall/.bashrc
 echo "cd" >> /home/lounge/.bashrc
 echo "cd" >> /home/ballroom/.bashrc
 echo "cd" >> /home/diningroom/.bashrc
