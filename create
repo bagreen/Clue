@@ -20,10 +20,10 @@ passwd -d clue
 yes clue | passwd entrance
 yes DDA0DD | passwd hall
 yes orange | passwd lounge
-yes trousers | passwd ballroom
+yes poodle | passwd ballroom
 yes blink182 | passwd diningroom
 yes Sylphrapidash | passwd kitchen
-yes Aardwolf | passwd billiardroom
+yes birmingham | passwd billiardroom
 yes 'dpa$$wor' | passwd conservatory
 yes CONSTANCE | passwd study
 yes nancydrew123 | passwd patio
@@ -161,6 +161,7 @@ echo "You see a television flashing strange lines of text in the corner and deci
 echo "The text looks familiar to you but you are only able to catch: ‘0668794C9BA769EA2F0BF886688FE279:F76E5CA96C69961CFCA54BAAD7E355F0’." >> /home/patio/lookaround
 echo "You think this looks like a hashed Windows password." >> /home/patio/lookaround
 echo "Can you decode this and open the door into the library?" >> /home/patio/lookaround
+echo "Hint : Try Ophcrack" >> /home/patio/lookaround
 
 # Library
 echo "Closing the door behind you and finally being able to escape Mrs. Peacock’s sobs, you bump right into Mr. Green. " >> /home/library/lookaround
@@ -235,12 +236,16 @@ echo "The next room is the cellar" >> /home/spa/lookaround
 echo "28bc8c78881b2f89bbeab4f9bb8fbeda" > /home/entrance/hashedpassword
 echo "e8c482645c1344206acfc8d47ebf6557" > /home/hall/hashedpassword
 echo "fe01d67a002dfa0f3ac084298142eccd" > /home/lounge/hashedpassword
-echo "1a637268f7aeb0186c899a6f0bb90aa7" > /home/ballroom/hashedpassword
+echo "e95e294e1feb382c08f435e509e121be" > /home/ballroom/hashedpassword
 echo "6104df369888589d6dbea304b59a32d4" > /home/diningroom/hashedpassword
 echo "fc369d54db02c2bfab6d354b6ced05f9" > /home/kitchen/hashedpassword
-echo "af5e7df14af034434124fd61b2b2b319" > /home/billiardroom/hashedpassword
-echo "4faa5c99cd33bc507e14f533f4cf2b48" > /home/conservatory/hashedpassword
+echo "441fd9b294386afe2b0bcbacba145d07" > /home/billiardroom/hashedpassword
+echo "56fd8349277eaa3602b5e4417be01588" > /home/conservatory/hashedpassword
 echo "64b83bc470b544f57738f804d298c4be" > /home/study/hashedpassword
+echo "0668794C9BA769EA2F0BF886688FE279:F76E5CA96C69961CFCA54BAAD7E355F0" > /home/patio/hashedpassword
+echo "e8416709aac514529e6eb2c1fb8ab00b" > /home/library/hashedpassword
+echo "4aa3a8ea444f191c8bafc7d3a71be294" > /home/spa/hashedpassword
+echo "2b6f86281c03d2724c018a04af03620252" > /home/cellar/hashedpassword
 
 # Changes permissions to make sure users can only access their own file
 chmod 770 clue
