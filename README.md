@@ -12,7 +12,7 @@ at the back.
 Feel free to edit away and make it better, all of the issues or things we need to work on feel free to add to the issues
 
 
-## If it's not running, do the following:
+## Running the files
 
 If you want to create it
 > chmod 777 create
