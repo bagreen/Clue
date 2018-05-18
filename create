@@ -100,6 +100,17 @@ echo "You hear strange noises behind the door as you prepare to open it." >> /ho
 echo "You take a deep breath and whip the door open." >> /home/cellar/lookaround
 echo "You look up to find yourself face to face with Mr. Plum." >> /home/cellar/lookaround
 
+# Adds all of the users to log in to next
+echo "The next room is the hall" >> /home/entrance/lookaround
+echo "The next room is the lounge" >> /home/hall/lookaround
+echo "The next room is the ballrooom" >> /home/lounge/lookaround
+echo "The next room is the diningroom" >> /home/ballroom/lookaround
+echo "The next room is the kitchen" >> /home/kitchen/lookaround
+echo "The next room is the billiardroom" >> /home/billiardroom/lookaround
+echo "The next room is the conservatory" >> /home/conservatory/lookaround
+echo "The next room is the study" >> /home/study/lookaround
+echo "The next room is the cellar" >> /home/cellar/lookaround
+
 # Adds all of the hashed passwords
 echo "28bc8c78881b2f89bbeab4f9bb8fbeda" > /home/entrance/hashedpassword
 echo "e8c482645c1344206acfc8d47ebf6557" > /home/hall/hashedpassword
