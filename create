@@ -165,33 +165,34 @@ echo "Can you decode this and open the door into the library?" >> /home/patio/lo
 echo "Hint : Try Ophcrack" >> /home/patio/lookaround
 
 # Library
-echo "Closing the door behind you and finally being able to escape Mrs. Peacock’s sobs, you bump right into Mr. Green. " >> /home/library/lookaround
-echo "You notice his collar - he must be a priest. " >> /home/library/lookaround
-echo "And its less than a minute before he begins to talk about God and sins and humanity and on and on. " >> /home/library/lookaround
+echo "Closing the door behind you and finally being able to escape Mrs. Peacock’s sobs, you bump right into Mr. Green." >> /home/library/lookaround
+echo "You notice his collar - he must be a priest." >> /home/library/lookaround
+echo "And its less than a minute before he begins to talk about God and sins and humanity and on and on." >> /home/library/lookaround
 echo "You scan the room for something to distract you from having to engage in this theological lecture." >> /home/library/lookaround 
-echo "The far wall is filled with what appears to be cords and flashing lights greets you as you enter the library. " >> /home/library/lookaround
-echo "One of those fancy new computers that Mr. Boddy used it in his scientific work for the government. " >> /home/library/lookaround
-echo "As you approach the computer with caution, you notice that it looks like someone has used it recently. " >> /home/library/lookaround
-echo "You find a bunch of miscellaneous files and a hash, 'e8416709aac514529e6eb2c1fb8ab00b'. " >> /home/library/lookaround
-echo "The line underneath is indicates that the password begins with CLUE- followed by 4 digits. " >> /home/library/lookaround
+echo "The far wall is filled with what appears to be cords and flashing lights greets you as you enter the library." >> /home/library/lookaround
+echo "One of those fancy new computers that Mr. Boddy used it in his scientific work for the government." >> /home/library/lookaround
+echo "As you approach the computer with caution, you notice that it looks like someone has used it recently." >> /home/library/lookaround
+echo "You find a bunch of miscellaneous files and a hash, 'e8416709aac514529e6eb2c1fb8ab00b'." >> /home/library/lookaround
+echo "The line underneath is indicates that the password begins with CLUE- followed by 4 digits." >> /home/library/lookaround
 echo "All this stress makes you wish you could go relax at the spa." >> /home/library/lookaround
 
 # Spa
-echo "You enter the spa and wish that you could take a moment away from the case to relax, but alas, a murderer is on the loose. " >> /home/spa/lookaround
-echo "Stopping for a moment to rest on the spa bed, you through the head hole, a revolver laying on the floor. " >> /home/spa/lookaround
-echo "You pick up the gun and sniff it. It has not been fired recently! " >> /home/spa/lookaround
-echo "You pop it open and notice it is empty - useless! " >> /home/spa/lookaround
+echo "You enter the spa and wish that you could take a moment away from the case to relax, but alas, a murderer is on the loose." >> /home/spa/lookaround
+echo "Stopping for a moment to rest on the spa bed, you through the head hole, a revolver laying on the floor." >> /home/spa/lookaround
+echo "You pick up the gun and sniff it." >> /home/spa/lookaround 
+echo "It has not been fired recently!" >> /home/spa/lookaround
+echo "You pop it open and notice it is empty - useless!" >> /home/spa/lookaround
 echo "You toss it aside and you start to think...something is missing...someone is missing…" >> /home/spa/lookaround
-echo "You make your way towards the door when it suddenly slams shut. " >> /home/spa/lookaround
-echo "You've been locked in! " >> /home/spa/lookaround
+echo "You make your way towards the door when it suddenly slams shut." >> /home/spa/lookaround
+echo "You've been locked in!" >> /home/spa/lookaround
 echo "You start going through a checklist of rooms you've visited, things you've found, and people you've talked to…" >> /home/spa/lookaround
-echo "You think you have it but you must escape this room and track down the killer! " >> /home/spa/lookaround
-echo "The only room left is the cellar! " >> /home/spa/lookaround
-echo "That's where the killer is! But how do you get to the cellar? " >> /home/spa/lookaround
-echo "You search the room for a clue. " >> /home/spa/lookaround
-echo "You pick up a towel - maybe you’ll break a window - when you notice something written on the tag. " >> /home/spa/lookaround
-echo "It says: '4aa3a8ea444f191c8bafc7d3a71be294'. " >> /home/spa/lookaround
-echo "You've done this before, but this time the clue is SUSPECTS-, followed by four capital letters and then two digits. " >> /home/spa/lookaround
+echo "You think you have it but you must escape this room and track down the killer!" >> /home/spa/lookaround
+echo "The only room left is the cellar!" >> /home/spa/lookaround
+echo "That's where the killer is! But how do you get to the cellar?" >> /home/spa/lookaround
+echo "You search the room for a clue." >> /home/spa/lookaround
+echo "You pick up a towel - maybe you’ll break a window - when you notice something written on the tag." >> /home/spa/lookaround
+echo "It says: '4aa3a8ea444f191c8bafc7d3a71be294'." >> /home/spa/lookaround
+echo "You've done this before, but this time the clue is SUSPECTS-, followed by four capital letters and then two digits." >> /home/spa/lookaround
 echo "You know what to do!" >> /home/spa/lookaround
 
 # Cellar
@@ -209,7 +210,6 @@ echo "He lungs at you, you dodge out of the way and knock over salt in the proce
 echo "Why is there salt in the cellar?!" >> /home/cellar/lookaround
 echo "Maybe it's a hint about the password..." >> /home/cellar/lookaround
 echo "It is clear to you now, but you’ll have to act fast if you want to stop him!" >> /home/cellar/lookaround
-echo "Helpful commands: " >>/home/cellar/lookaround
 # Hint 1
 echo "Hint : In cryptography, a salt is random data that is used as an additional input to a one-way function that "hashes" data, a password or passphrase." >> /home/cellar/hint
 echo "Salts are closely related to the concept of nonce." >> /home/cellar/hint
