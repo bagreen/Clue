@@ -10,6 +10,9 @@ userdel kitchen
 userdel billiardroom
 userdel conservatory
 userdel study
+userdel patio
+userdel library
+userdel spa
 userdel cellar
 
 # Deletes user folders
@@ -23,4 +26,7 @@ rm -rf kitchen/
 rm -rf billiardroom/
 rm -rf conservatory/
 rm -rf study/
+rm -rf patio/
+rm -rf library/
+rm -rf spa/
 rm -rf cellar/
