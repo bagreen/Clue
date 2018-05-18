@@ -13,7 +13,7 @@ userdel study
 userdel cellar
 
 # Deletes user folders
-rm -rf clue
+rm -rf clue/
 rm -rf entrance/
 rm -rf hall/
 rm -rf lounge/
