@@ -44,7 +44,8 @@ echo "Have fun!" >> /home/clue/lookaround
 
 # Entrance
 echo "You are greeted by Butler Wadsworth and are handed an envelope with your name across the front in cursive." >> /home/entrance/lookaround
-echo "You open it and find only this written on a note: Dear Detective, if you wish to continue into the house, you will need the password." >> /home/entrance/lookaround
+echo "You open it and find only this written on a note: " >> /home/entrance/lookaround
+echo "  Dear Detective, if you wish to continue into the house, you will need the password." >> /home/entrance/lookaround
 echo "'28bc8c78881b2f89bbeab4f9bb8fbeda'" >> /home/entrance/lookaround
 echo "This appears familiar to you and you recollect that you've seen this type of MD5 hash before." >> /home/entrance/lookaround
 echo "Can you figure out the password to enter the next room?" >> /home/entrance/lookaround
