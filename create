@@ -45,8 +45,8 @@ echo "Have fun!" >> /home/clue/lookaround
 # Entrance
 echo "You are greeted by Butler Wadsworth and are handed an envelope with your name across the front in cursive." >> /home/entrance/lookaround
 echo "You open it and find only this written on a note: " >> /home/entrance/lookaround
-echo "  Dear Detective, if you wish to continue into the house, you will need the password." >> /home/entrance/lookaround
-echo "'28bc8c78881b2f89bbeab4f9bb8fbeda'" >> /home/entrance/lookaround
+echo "    Dear Detective, if you wish to continue into the house, you will need the password." >> /home/entrance/lookaround
+echo "    28bc8c78881b2f89bbeab4f9bb8fbeda" >> /home/entrance/lookaround
 echo "This appears familiar to you and you recollect that you've seen this type of MD5 hash before." >> /home/entrance/lookaround
 echo "Can you figure out the password to enter the next room?" >> /home/entrance/lookaround
 echo "Helpful commands: su, man, hashcat" >>/home/entrance/lookaround
@@ -98,7 +98,7 @@ echo "You look at the lead pipe for a second before deciding to use it as a stra
 echo "Hmm, the flavor reminds you of stone soup from the children’s book you loved as a child." >> /home/diningroom/lookaround
 echo "You reach for the napkin on the table to dry off the pipe, but as you pick it up a notes falls out and lands in the soup." >> /home/diningroom/lookaround
 echo "You fish it out quickly, but most of the writing has already dissolved." >> /home/diningroom/lookaround
-echo "You can still make out this on the front: “6104df369888589d6dbea304b59a32d4” and a small note in the corner that you think says rockyou." >> /home/diningroom/lookaround
+echo "You can still make out this on the front: '6104df369888589d6dbea304b59a32d4' and a small note in the corner that you think says rockyou." >> /home/diningroom/lookaround
 echo "You go to check out the kitchen but you notice a giant padlock on the door." >> /home/diningroom/lookaround
 echo "Can you figure out the code? " >> /home/diningroom/lookaround
 echo "Helpful commands: su, man, hashcat -a 3" >>/home/diningroom/lookaround
@@ -130,7 +130,7 @@ echo "You knock on the door and then nope it, $tepping into the conservatory and
 echo "She lounges for uyo seductively dan you manage to jump tou of her way but unfortunately, you accidentally knock over a potted fern." >> /home/conservatory/lookaround
 echo "The terracotta pot breaks and dirt spills over the floor." >> /home/conservatory/lookaround
 echo "gLookin clo$er you see a folded scrap of paper under the leaves and $oil." >> /home/conservatory/lookaround
-echo "You unfold it dan it reads: “56fd8349277eaa3602b5e4417be01588”." >> /home/conservatory/lookaround
+echo "You unfold it dan it reads: '56fd8349277eaa3602b5e4417be01588'." >> /home/conservatory/lookaround
 echo "Solve this fast!" >> /home/conservatory/lookaround
 echo "Apparently Mrs. White is on the lookout for husband #6!" >> /home/conservatory/lookaround
 echo "You can escape to the study if you can $peed past Mrs. White and unlock the door." >> /home/conservatory/lookaround
@@ -147,7 +147,7 @@ echo "As you pick up the rope, a layer of dust falls off it." >> /home/study/loo
 echo "Obviously the rope has not been moved in a while." >> /home/study/lookaround
 echo "The dust makes you sneeze and as you tilt your head, you notice that several letters are scattered across the windowsill, but only one has been opened. " >> /home/study/lookaround
 echo "You turn over the ripped envelope and notice some text scribbled next the address line. " >> /home/study/lookaround
-echo "It reads: “64b83bc470b544f57738f804d298c4be”. " >> /home/study/lookaround
+echo "It reads: '64b83bc470b544f57738f804d298c4be'. " >> /home/study/lookaround
 echo "Could this be your next clue? Maybe this has something to do with Mr. Boddy’s CON? " >> /home/study/lookaround
 echo "All this mystery really makes you want to step out for a breath of fresh air. " >> /home/study/lookaround
 echo "Maybe the patio is where you head next..." >> /home/study/lookaround
@@ -161,7 +161,7 @@ echo "Something about her senator husband and the horror of this ordeal." >> /ho
 echo "The sound of rain mixed with Mrs. Peacock’s sobbing is deafening as you make your way to the door on the other side." >> /home/patio/lookaround
 echo "You find it unsurprisingly locked and look around the patio for hints to escape this awkwardness." >> /home/patio/lookaround
 echo "You see a television flashing strange lines of text in the corner and decide to inspect it." >> /home/patio/lookaround
-echo "The text looks familiar to you but you are only able to catch: ‘0668794C9BA769EA2F0BF886688FE279:F76E5CA96C69961CFCA54BAAD7E355F0’." >> /home/patio/lookaround
+echo "The text looks familiar to you but you are only able to catch: '0668794C9BA769EA2F0BF886688FE279:F76E5CA96C69961CFCA54BAAD7E355F0'." >> /home/patio/lookaround
 echo "You think this looks like a hashed Windows password." >> /home/patio/lookaround
 echo "Can you decode this and open the door into the library?" >> /home/patio/lookaround
 echo "Hint : Try Ophcrack" >> /home/patio/lookaround
