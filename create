@@ -43,7 +43,7 @@ echo "To begin, type in 'su entrance'" >> /home/clue/lookaround
 echo "Have fun!" >> /home/clue/lookaround
 
 # Entrance
-echo "You are greeted by Butler Wadsworth and are handed an enelope with your name across the front in cursive." >> /home/entrance/lookaround
+echo "You are greeted by Butler Wadsworth and are handed an envelope with your name across the front in cursive." >> /home/entrance/lookaround
 echo "You open it and find only this written on a note: Dear Detective, if you wish to continue into the house, you will need the password." >> /home/entrance/lookaround
 echo "'28bc8c78881b2f89bbeab4f9bb8fbeda'" >> /home/entrance/lookaround
 echo "This appears familiar to you and you recollect that you've seen this type of MD5 hash before." >> /home/entrance/lookaround
@@ -65,7 +65,7 @@ echo "You enter a beautifully ornate lounge complete with a Persian rug, which w
 echo "You slowly pace over to Mr. Boddy, when suddenly a burst of flames jump out from the fireplace." >> /home/lounge/lookaround
 echo "You notice a few letters jutting out of the blaze." >> /home/lounge/lookaround
 echo "Out of instinct you reach for them." >> /home/lounge/lookaround
-echo "A few crumple into ashes in your hand, but you can still make out what was written on one of them: 'fe01d67a002dfa0f3ac084298142eccd'." >> /home/lounge/lookaround
+echo "A few crumble into ashes in your hand, but you can still make out what was written on one of them: 'fe01d67a002dfa0f3ac084298142eccd'." >> /home/lounge/lookaround
 echo "You decide to forgo inspecting Mr. Boddy’s body, but rather head to the ballroom." >> /home/lounge/lookaround
 echo "But this door looks like it also needs a password...Maybe the letters from the flames can help?" >> /home/lounge/lookaround
 echo "Helpful commands: su, man, hashcat -a 0" >> /home/lounge/lookaround
@@ -77,11 +77,11 @@ echo "Her maroon dress complements the deep amber of the floors." >> /home/ballr
 echo "You begin to ask her questions about what happened." >> /home/ballroom/lookaround
 echo "You listen to her talk about their dinner party, or lack thereof as it appears Mr. Boddy died even before dinner was served, as the two of you walk around the room." >> /home/ballroom/lookaround
 echo "You are paying more attention to the paintings then to her really, when one catches your eye." >> /home/ballroom/lookaround
-echo "The sheer beauty of the painting completely pulls your attention away from Miss Scarlett." >> /home/ballroom/lookaround
+echo "The sheer beauty of the painting completely pulls your attention away from Miss Scarlet." >> /home/ballroom/lookaround
 echo "Who knew dogs playing poker could be so profound." >> /home/ballroom/lookaround
 echo "But the painting is tilted!" >> /home/ballroom/lookaround
 echo "You go to straighten it out but an envelope falls out." >> /home/ballroom/lookaround
-echo "Scribbled across the top is: '1a637268f7aeb0186c899a6f0bb90aa7'." >> /home/ballroom/lookaround
+echo "Scribbled across the top is: 'e95e294e1feb382c08f435e509e121be'." >> /home/ballroom/lookaround
 echo "Inside you find a list of what you think are different dog breeds." >> /home/ballroom/lookaround
 echo "Could you use this list to decode the password?" >> /home/ballroom/lookaround
 echo "Maybe it's a hint as to who killed Mr. Boddy?" >> /home/ballroom/lookaround
@@ -118,7 +118,7 @@ echo "Upon entering the room, the colonel takes it upon himself to tell you abou
 echo "You begin to zone out as he rambles on until something strange catches your eye." >> /home/billiardroom/lookaround
 echo "Sitting on the mantel was a candlestick holding the eight ball." >> /home/billiardroom/lookaround
 echo "You move across the room and pick up the ball." >> /home/billiardroom/lookaround
-echo "As you do, you notice something etched into the side of the ball: 'af5e7df14af034434124fd61b2b2b319'." >> /home/billiardroom/lookaround
+echo "As you do, you notice something etched into the side of the ball: '441fd9b294386afe2b0bcbacba145d07'." >> /home/billiardroom/lookaround
 echo "Holding the ball tentatively in your hand, you search the room for hints to solve this hash." >> /home/billiardroom/lookaround
 echo "Hopefully you can solve it fast so that you can duck out on the colonel’s boring story and into the conservatory." >> /home/billiardroom/lookaround
 echo "Helpful commands: su, man, hashcat -r" >>/home/billiardroom/lookaround
@@ -128,7 +128,7 @@ echo "You knock on the door and then nope it, $tepping into the conservatory and
 echo "She lounges for uyo seductively dan you manage to jump tou of her way but unfortunately, you accidentally knock over a potted fern." >> /home/conservatory/lookaround
 echo "The terracotta pot breaks and dirt spills over the floor." >> /home/conservatory/lookaround
 echo "gLookin clo$er you see a folded scrap of paper under the leaves and $oil." >> /home/conservatory/lookaround
-echo "You unfold it dan it reads: “4faa5c99cd33bc507e14f533f4cf2b48”." >> /home/conservatory/lookaround
+echo "You unfold it dan it reads: “56fd8349277eaa3602b5e4417be01588”." >> /home/conservatory/lookaround
 echo "Solve this fast!" >> /home/conservatory/lookaround
 echo "Apparently Mrs. White is on the lookout for husband #6!" >> /home/conservatory/lookaround
 echo "You can escape to the study if you can $peed past Mrs. White and unlock the door." >> /home/conservatory/lookaround
@@ -220,18 +220,18 @@ echo "Hint : 2b or not 2b, that is the question….. Shakespeare was a great ENG
 echo "Hint : You might need to double down on your efforts." >> /home/cellar/hint3
 
 # Adds all of the users to log in to next
-echo "The next room is the hall" >> /home/entrance/lookaround
-echo "The next room is the lounge" >> /home/hall/lookaround
-echo "The next room is the ballrooom" >> /home/lounge/lookaround
-echo "The next room is the diningroom" >> /home/ballroom/lookaround
-echo "The next room is the kitchen" >> /home/diningroom/lookaround
-echo "The next room is the billiardroom" >> /home/kitchen/lookaround
-echo "The next room is the conservatory" >> /home/billiardroom/lookaround
-echo "The next room is the study" >> /home/conservatory/lookaround
-echo "The next room is the patio" >> /home/study/lookaround
-echo "The next room is the library" >> /home/patio/lookaround
-echo "The next room is the spa" >> /home/library/lookaround
-echo "The next room is the cellar" >> /home/spa/lookaround
+#echo "The next room is the hall" >> /home/entrance/lookaround
+#echo "The next room is the lounge" >> /home/hall/lookaround
+#echo "The next room is the ballrooom" >> /home/lounge/lookaround
+#echo "The next room is the diningroom" >> /home/ballroom/lookaround
+#echo "The next room is the kitchen" >> /home/diningroom/lookaround
+#echo "The next room is the billiardroom" >> /home/kitchen/lookaround
+#echo "The next room is the conservatory" >> /home/billiardroom/lookaround
+#echo "The next room is the study" >> /home/conservatory/lookaround
+#echo "The next room is the patio" >> /home/study/lookaround
+#echo "The next room is the library" >> /home/patio/lookaround
+#echo "The next room is the spa" >> /home/library/lookaround
+#echo "The next room is the cellar" >> /home/spa/lookaround
 
 # Adds all of the hashed passwords
 echo "28bc8c78881b2f89bbeab4f9bb8fbeda" > /home/entrance/hashedpassword
