@@ -67,7 +67,8 @@ echo "You notice a few letters jutting out of the blaze." >> /home/lounge/lookar
 echo "Out of instinct you reach for them." >> /home/lounge/lookaround
 echo "A few crumble into ashes in your hand, but you can still make out what was written on one of them: 'fe01d67a002dfa0f3ac084298142eccd'." >> /home/lounge/lookaround
 echo "You decide to forgo inspecting Mr. Boddy’s body, but rather head to the ballroom." >> /home/lounge/lookaround
-echo "But this door looks like it also needs a password...Maybe the letters from the flames can help?" >> /home/lounge/lookaround
+echo "But this door looks like it also needs a password..." >> /home/lounge/lookaround
+ehco "Maybe the letters from the flames can help?" >> /home/lounge/lookaround
 echo "Helpful commands: su, man, hashcat -a 0" >> /home/lounge/lookaround
 
 # Ballroom         
@@ -178,7 +179,7 @@ echo "All this stress makes you wish you could go relax at the spa." >> /home/li
 
 # Spa
 echo "You enter the spa and wish that you could take a moment away from the case to relax, but alas, a murderer is on the loose." >> /home/spa/lookaround
-echo "Stopping for a moment to rest on the spa bed, you through the head hole, a revolver laying on the floor." >> /home/spa/lookaround
+echo "Stopping for a moment to rest on the spa bed, you see through the head hole a revolver laying on the floor." >> /home/spa/lookaround
 echo "You pick up the gun and sniff it." >> /home/spa/lookaround 
 echo "It has not been fired recently!" >> /home/spa/lookaround
 echo "You pop it open and notice it is empty - useless!" >> /home/spa/lookaround
