@@ -69,7 +69,7 @@ echo "Out of instinct you reach for them." >> /home/lounge/lookaround
 echo "A few crumble into ashes in your hand, but you can still make out what was written on one of them: 'fe01d67a002dfa0f3ac084298142eccd'." >> /home/lounge/lookaround
 echo "You decide to forgo inspecting Mr. Boddy’s body, but rather head to the ballroom." >> /home/lounge/lookaround
 echo "But this door looks like it also needs a password..." >> /home/lounge/lookaround
-ehco "Maybe the letters from the flames can help?" >> /home/lounge/lookaround
+echo "Maybe the letters from the flames can help?" >> /home/lounge/lookaround
 echo "Helpful commands: su, man, hashcat. The password has a length of six, so try using 'hashcat (password hash) -m 0 -a 0 ?l?l?l?l?l?l" >> /home/lounge/lookaround
 
 # Ballroom         
