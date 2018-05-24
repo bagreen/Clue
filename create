@@ -97,7 +97,7 @@ printf "Hint : 2b or not 2b, that is the question….. Shakespeare was a great E
 printf "Hint : You might need to double down on your efforts." >> /home/cellar/hint3
 
 # Endgame
-printf "You dodge out of the way of the swinging Professor. Bending down, you grab the spilled salt and hurl in into Prof. Plum’s eyes. “MY EYES!”, screams Prof. Plum, dropping the wrench to claw at his eyes. You shove him to the ground and struggle to pull his hands behind his back and cuff him. Finally, he gives in and stop thrashing around and you are able to cuff him and drag him to his feet. You walk him back to the entrance and hand him off to your sergeant. Phew, you survived!" >> /home/engame/lookaround
+printf "You dodge out of the way of the swinging Professor. Bending down, you grab the spilled salt and hurl in into Prof. Plum’s eyes. “MY EYES!”, screams Prof. Plum, dropping the wrench to claw at his eyes. You shove him to the ground and struggle to pull his hands behind his back and cuff him. Finally, he gives in and stop thrashing around and you are able to cuff him and drag him to his feet. You walk him back to the entrance and hand him off to your sergeant. Phew, you survived!" >> /home/endgame/lookaround
 
 # Adds all of the users to log in to next
 #echo "The next room is the hall" >> /home/entrance/lookaround
