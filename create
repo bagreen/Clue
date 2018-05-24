@@ -1,37 +1,60 @@
 #!/bin/bash
+
+# Makes array of all rooms
+rooms=(clue entrance hall lounge ballroom diningroom kitchen billiardroom conservatory study cellar)
+passwords=(test clue DDA0DD orange trousers blink182 Sylphrapidash Aardwolf 'dpa$$wor' CONSTANCE test)
+hashes=(28bc8c78881b2f89bbeab4f9bb8fbeda e8c482645c1344206acfc8d47ebf6557 fe01d67a002dfa0f3ac084298142eccd 1a637268f7aeb0186c899a6f0bb90aa7 6104df369888589d6dbea304b59a32d4 fc369d54db02c2bfab6d354b6ced05f9 af5e7df14af034434124fd61b2b2b319 4faa5c99cd33bc507e14f533f4cf2b48 64b83bc470b544f57738f804d298c4be)
+
+for i in "${rooms[@]}"
+do
+  # Adds each user
+  useradd -m ${rooms[i]}
+  
+  # Adds each password
+  yes ${passwords[i]} | passwd ${rooms[i]}
+  
+  # Changes permissions so users can only access their own directory
+  chmod 770 ${rooms[i]}
+  
+  # Users login to their home directory
+  echo "cd" >> /home/${rooms[@]}/.bashrc
+done
+
+
+
 # Makes users
-useradd -m clue
-useradd -m entrance
-useradd -m hall
-useradd -m lounge
-useradd -m ballroom
-useradd -m diningroom
-useradd -m kitchen
-useradd -m billiardroom
-useradd -m conservatory
-useradd -m study
-useradd -m patio
-useradd -m library
-useradd -m spa
-useradd -m cellar
-useradd -m endgame
+#useradd -m clue
+#useradd -m entrance
+#useradd -m hall
+#useradd -m lounge
+#useradd -m ballroom
+#useradd -m diningroom
+#useradd -m kitchen
+#useradd -m billiardroom
+#useradd -m conservatory
+#useradd -m study
+#useradd -m patio
+#useradd -m library
+#useradd -m spa
+#useradd -m cellar
+#useradd -m endgame
 
 # Makes passwords for each user
-passwd -d clue
-passwd -d entrance
-yes clue | passwd hall
-yes DDA0DD | passwd lounge
-yes orange | passwd ballroom
-yes poodle | passwd diningroom
-yes blink182 | passwd kitchen
-yes Sylphrapidash | passwd billiardroom
-yes birmingham | passwd conservatory
-yes 'dpa$$wor' | passwd study
-yes CONSTANCE | passwd patio
-yes nancydrew123 | passwd library
-yes CLUE-1949 | passwd spa
-yes SUSPECTS-LEFT01 | passwd cellar
-yes caseclosed | passwd endgame
+#passwd -d clue
+#passwd -d entrance
+#yes clue | passwd hall
+#yes DDA0DD | passwd lounge
+#yes orange | passwd ballroom
+#yes poodle | passwd diningroom
+#yes blink182 | passwd kitchen
+#yes Sylphrapidash | passwd billiardroom
+#yes birmingham | passwd conservatory
+#yes 'dpa$$wor' | passwd study
+#yes CONSTANCE | passwd patio
+#yes nancydrew123 | passwd library
+#yes CLUE-1949 | passwd spa
+#yes SUSPECTS-LEFT01 | passwd cellar
+#yes caseclosed | passwd endgame
 
 # Makes all of the scripts for each room
 # Clue
@@ -129,33 +152,33 @@ echo "4aa3a8ea444f191c8bafc7d3a71be294" > /home/spa/hashedpassword
 echo "2b6f86281c03d2724c018a04af03620252" > /home/cellar/hashedpassword
 
 # Changes permissions to make sure users can only access their own file
-chmod 770 clue
-chmod 770 entrance
-chmod 770 hall
-chmod 770 lounge
-chmod 770 ballroom
-chmod 770 diningroom
-chmod 770 kitchen
-chmod 770 billiardroom
-chmod 770 conservatory
-chmod 770 study
-chmod 770 patio
-chmod 770 library
-chmod 770 spa
-chmod 770 cellar
+#chmod 770 clue
+#chmod 770 entrance
+#chmod 770 hall
+#chmod 770 lounge
+#chmod 770 ballroom
+#chmod 770 diningroom
+#chmod 770 kitchen
+#chmod 770 billiardroom
+#chmod 770 conservatory
+#chmod 770 study
+#chmod 770 patio
+#chmod 770 library
+#chmod 770 spa
+#chmod 770 cellar
 
 # Sets user to automatically go to home directory when they login
-echo "cd" >> /home/clue/.bashrc
-echo "cd" >> /home/entrance/.bashrc
-echo "cd" >> /home/hall/.bashrc
-echo "cd" >> /home/lounge/.bashrc
-echo "cd" >> /home/ballroom/.bashrc
-echo "cd" >> /home/diningroom/.bashrc
-echo "cd" >> /home/kitchen/.bashrc
-echo "cd" >> /home/billiardroom/.bashrc
-echo "cd" >> /home/conservatory/.bashrc
-echo "cd" >> /home/study/.bashrc
-echo "cd" >> /home/patio/.bashrc
-echo "cd" >> /home/library/.bashrc
-echo "cd" >> /home/spa/.bashrc
-echo "cd" >> /home/cellar/.bashrc
+#echo "cd" >> /home/clue/.bashrc
+#echo "cd" >> /home/entrance/.bashrc
+#echo "cd" >> /home/hall/.bashrc
+#echo "cd" >> /home/lounge/.bashrc
+#echo "cd" >> /home/ballroom/.bashrc
+#echo "cd" >> /home/diningroom/.bashrc
+#echo "cd" >> /home/kitchen/.bashrc
+#echo "cd" >> /home/billiardroom/.bashrc
+#echo "cd" >> /home/conservatory/.bashrc
+#echo "cd" >> /home/study/.bashrc
+#echo "cd" >> /home/patio/.bashrc
+#echo "cd" >> /home/library/.bashrc
+#echo "cd" >> /home/spa/.bashrc
+#echo "cd" >> /home/cellar/.bashrc
