@@ -35,13 +35,7 @@ yes caseclosed | passwd endgame
 
 # Makes all of the scripts for each room
 # Clue
-echo "Welcome to Clue!" >> /home/clue/lookaround
-echo "In Clue, you are a detective tasked with finding a murderer." >> /home/clue/lookaround
-echo "To navigate through Clue, you change users on the linux command line." >> /home/clue/lookaround
-echo "This is done through 'su (room)'." >> /home/clue/lookaround
-echo "To change users, you will have to use a password cracking tool, such as hashcat to get the password for the room." >> /home/clue/lookaround
-echo "To begin, type in 'su entrance'" >> /home/clue/lookaround
-echo "Have fun!" >> /home/clue/lookaround
+printf "Welcome to Clue! In Clue, you are a detective tasked with finding a murderer. To navigate through Clue, you change users on the linux command line. This is done through 'su (room)'. To change users, you will have to use a password cracking tool, such as hashcat to get the password for the room. To begin, type in 'su entrance'. Have fun!" >> /home/clue/lookaround
 
 # Entrance
 printf "You are greeted by Butler Wadsworth and are handed an envelope with your name across the front in cursive. You open it and find only this written on a note: ‘Dear Detective, if you wish to continue into the house, you will need the password. 28bc8c78881b2f89bbeab4f9bb8fbeda’. This appears familiar to you and you recollect that you’ve seen this type of MD5 hash before. Can you figure out the password to enter the next room? Helpful commands: su, man, hashcat. The password has a length of four, so try using 'hashcat (password hash) -m 0 -a 3 ?l?l?l?l" >>/home/entrance/lookaround
