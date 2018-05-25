@@ -14,7 +14,7 @@ userdel patio
 userdel library
 userdel spa
 userdel cellar
-userdel engame
+userdel endgame
 
 # Deletes user folders
 rm -rf clue/
