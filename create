@@ -18,7 +18,7 @@ do
       yes ${passwords[i-2]} | passwd ${rooms[i]}
       
       # add hashed passwords
-      echo ${hashes[i-2]} >> /home/${rooms[i]}/hashedpassword
+      echo ${hashes[i-1]} >> /home/${rooms[i]}/hashedpassword
   fi
   
   # Changes permissions so users can only access their own directory
@@ -34,7 +34,7 @@ printf "Welcome to Clue! In Clue, you are a detective tasked with finding a murd
 #printf ${script[0]} >> /home/clue/lookaround
 
 # Entrance
-printf "You are greeted by Butler Wadsworth and are handed an envelope with your name across the front in cursive. You open it and find only this written on a note: ‘Dear Detective, if you wish to continue into the house, you will need the password. 28bc8c78881b2f89bbeab4f9bb8fbeda’. This appears familiar to you and you recollect that you’ve seen this type of MD5 hash before. Can you figure out the password to enter the next room? Helpful commands: su, man, hashcat. The password has a length of four, so try using 'hashcat (password hash) -m 0 -a 3 ?l?l?l?l" >>/home/entrance/lookaround
+printf "You are greeted by Butler Wadsworth and are handed an envelope with your name across the front in cursive. You open it and find only this written on a note: ‘Dear Detective, if you wish to continue into the house, you will need the password. 28bc8c78881b2f89bbeab4f9bb8fbeda’. This appears familiar to you and you recollect that you’ve seen this type of MD5 hash before. Can you figure out the password to enter the hall? Helpful commands: su, man, hashcat. The password has a length of four, so try using 'hashcat (password hash) -m 0 -a 3 ?l?l?l?l" >>/home/entrance/lookaround
 printf "Hint: What type of attack doesn’t need to be compared to a word list? Use the command hashcat --help for more information and syntax examples." >> /home/entrance/hint1
 printf "Hint: The MD5 algorithm is a widely used hash function producing a 128-bit hash value. Although MD5 was initially designed to be used as a cryptographic hash function, it has been found to suffer from extensive vulnerabilities. It can still be used as a checksum to verify data integrity, but only against unintentional corruption. Like most hash functions, MD5 is neither encryption nor encoding. It can be cracked by brute-force attack and suffers from extensive vulnerabilities as detailed in the security section below." >> /home/entrance/hint2
 
