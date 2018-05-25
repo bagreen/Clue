@@ -18,7 +18,7 @@ do
       yes ${passwords[i-1]} | passwd ${rooms[i]}
       
       # add hashed passwords
-      echo ${hashes[i-2]} >> /home/${rooms[i]}/hashedpassword
+      echo ${hashes[i-1]} >> /home/${rooms[i]}/hashedpassword
   fi
   
   # Changes permissions so users can only access their own directory
