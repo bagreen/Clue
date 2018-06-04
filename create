@@ -3,7 +3,6 @@
 rooms=(clue entrance hall lounge ballroom diningroom kitchen billiardroom conservatory study patio library spa cellar endgame)
 passwords=(clue DDA0DD orange poodle blink182 Sylphrapidash Aardwolf 'dpa$$wor' CONSTANCE nancydrew123 CLUE-1949 SUSPECTS-LEFT01 caseclosed)
 hashes=(28bc8c78881b2f89bbeab4f9bb8fbeda e8c482645c1344206acfc8d47ebf6557 fe01d67a002dfa0f3ac084298142eccd e95e294e1feb382c08f435e509e121be 6104df369888589d6dbea304b59a32d4 fc369d54db02c2bfab6d354b6ced05f9 441fd9b294386afe2b0bcbacba145d07 56fd8349277eaa3602b5e4417be01588 64b83bc470b544f57738f804d298c4be 0668794C9BA769EA2F0BF886688FE279:F76E5CA96C69961CFCA54BAAD7E355F0 e8416709aac514529e6eb2c1fb8ab00b 4aa3a8ea444f191c8bafc7d3a71be294 2b6f86281c03d2724c018a04af03620252)
-#script=('Welcome to Clue! In Clue, you are a detective tasked with finding a murderer. To navigate through Clue, you change users on the linux command line. This is done through su (room). To change users, you will have to use a password cracking tool, such as hashcat to get the password for the room. To begin, type in su entrance. Have fun!')
 
 for i in {0..14}
 do
@@ -15,10 +14,10 @@ do
     then 
       passwd -d ${rooms[i]}
     else 
-      yes ${passwords[i-1]} | passwd ${rooms[i]}
+      yes ${passwords[i-2]} | passwd ${rooms[i]}
       
       # add hashed passwords
-      echo ${hashes[i-1]} >> /home/${rooms[i]}/hashedpassword
+      echo ${hashes[i-2]} >> /home/${rooms[i]}/hashedpassword
   fi
   
   # Changes permissions so users can only access their own directory
