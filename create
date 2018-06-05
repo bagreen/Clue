@@ -29,7 +29,7 @@ done
 
 # Makes all of the scripts for each room
 # Clue
-printf "Welcome to Clue! In Clue, you are a detective tasked with finding a murderer. To navigate through Clue, you change users on the linux command line. This is done through 'su (room)'. To change users, you will have to use a password cracking tool, such as hashcat to get the password for the room. To begin, type in 'su entrance'. Have fun!\n" >> /home/clue/lookaround
+printf "Welcome to Clue! In Clue, you are a detective tasked with finding a murderer. To navigate through Clue, you change users on the linux command line. This is done through 'su (room)'. To change users, you will have to use a password cracking tool, such as hashcat to get the password for the room. Once you are in a room, type in 'ls' to list what is in the folder you logged in to, and you can type 'cat' to display a file's contents. When you log in to a new user, there will be a file called 'lookaround' that will explain the story and what to do, and possibly hints in files called 'hint'. To look at these files, type in 'cat lookaround' or 'cat hint'. To begin, type in 'su entrance'. Have fun!\n" >> /home/clue/lookaround
 
 # Entrance
 printf "You are greeted by Butler Wadsworth and are handed an envelope with your name across the front in cursive. You open it and find only this written on a note: ‘Dear Detective, if you wish to continue into the house, you will need the password. 28bc8c78881b2f89bbeab4f9bb8fbeda’. This appears familiar to you and you recollect that you’ve seen this type of MD5 hash before. Can you figure out the password to enter the hall? Helpful commands: su, man, hashcat. The password has a length of four, so try using 'hashcat (password hash) -m 0 -a 3 ?l?l?l?l\n" >>/home/entrance/lookaround
